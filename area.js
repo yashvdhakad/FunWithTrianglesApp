@@ -8,7 +8,7 @@ const calculateArea = () => {
     const c = Number(sides[2].value);
     const s = (a+b+c)/2;
     const area = Math.sqrt(s*(s - a)*(s - b)*(s - c));
-    outputBox.innerText = `Area of your triangle is ${area}`;
+    outputBox.innerText = `Area of your triangle is ${area} units.`;
 }
 
 checkBtn.addEventListener("click", calculateArea);

@@ -42,7 +42,7 @@ label {
     margin-bottom: .5rem;
 }
 
-.angles {
+.sides {
     width: 20vw;
     height: 5vh;
     padding: .5rem;
@@ -52,7 +52,7 @@ label {
     border-radius: .2rem;
 }
 
-#isTriangleBtn {
+#checkBtn {
     font-size: 1rem;
     font-weight: 700;
     font-family: 'Manrope', sans-serif;
@@ -61,7 +61,7 @@ label {
     cursor: pointer;
     background: white;
 }
-#isTriangleBtn:hover {
+#checkBtn:hover {
     background: rgb(217, 217, 217);
 }
 
