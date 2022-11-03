@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun With Triangles.</title>
-    <link rel="stylesheet" href="isTriangle.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body class="font-['Manrope'] scroll-smooth bg-zinc-800 text-zinc-200 lg:px-80 px-6">
     <header>
-        <nav>
-            <ul>
-                <li><a href="hypo.html" id="">Hypotenuse of Triangle</a></li>
-                <li><a href="quiz.html" id="">Triangle Quiz</a></li>
-                <li><a href="area.html" id="">Area of Triangle</a></li>
-            </ul>
+        <nav class="py-6 flex justify-between items-center font-bold">
+            <p class="text-2xl lg:text-3xl">🔺</p>
+            <a href="https://yashvdhakad.netlify.app/projects.html" target="_blank">All Projects</a>
+            <a href="https://yashvdhakad.netlify.app/contact.html" target="_blank">Contact</a>
+        </nav>
+        <nav class="py-6 flex justify-between items-center font-bold text-center">
+            <a href="hypo.html">Hypotenuse of Triangle</a>
+            <a href="quiz.html">Triangle Quiz</a>
+            <a href="area.html">Area of Triangle</a>
         </nav>
     </header>
-    <main>
-        <h1>Is Triangle?</h1>
+    <hr>
+    <main class="flex flex-col">
+        <h1 class="lg:text-5xl lg:py-20 py-10 text-4xl font-bold text-center text-red-600">Is Triangle?</h1>
+        <!-- inputs -->
         <section class="inputs">
             <label for="angles">Angle 1</label>
             <input class="angles" type="text">
@@ -28,8 +37,10 @@
             <input class="angles" type="text">
             <label for="angles">Angle 3</label>
             <input class="angles" type="text">
+            <!-- button -->
             <button id="isTriangleBtn">Is Triangle?</button>
         </section>
+        <!-- outputs -->
         <section class="outputs">
             <div id="outputBox"></div>
         </section>
